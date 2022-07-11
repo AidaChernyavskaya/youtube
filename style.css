@@ -1,0 +1,39 @@
+body{
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: white;
+    background-attachment: fixed;
+    background-position: 0 0;
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 118px;
+    height: 76px;
+    margin-left: 6px;
+}
+
+.menu{
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}
+
+.country_code{
+    margin: 0 0 20px -10px;
+    color: #606060;
+    font-size: 9.5px;
+    font-family: Roboto, Arial, sans-serif;
+}
