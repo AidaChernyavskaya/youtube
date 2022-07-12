@@ -41,7 +41,6 @@ body{
 .center{
     display: flex;
     align-items: center;
-    margin-right: 145px;
 }
 
 .search_field{
@@ -98,4 +97,74 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 204px;
+}
+
+.add_video{
+    pointer-events: none;
+    display: block;
+    width: 24px;
+    cursor: pointer;
+}
+
+.apps{
+    pointer-events: none;
+    display: block;
+    width: 24px;
+    cursor: pointer;
+}
+
+.notification{
+    pointer-events: none;
+    display: block;
+    width: 24px;
+    cursor: pointer;
+}
+
+.profile_photo{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #f2f3f4;
+    cursor: pointer;
+}
+
+.add_video_circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.apps_circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.notification_circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
