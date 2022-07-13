@@ -2,6 +2,7 @@ body{
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    height: 2000px;
 }
 
 .header{
@@ -88,6 +89,30 @@ body{
     width: 24px;
 }
 
+.search_element2{
+    position: relative;
+}
+
+.label_search{
+    position: absolute;
+    top: 55px;
+    left: -15px;
+    background: #616161;
+    color: white;
+    padding: 10px 8px 10px 8px;
+    opacity: 0.9;
+    display: none;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+    width: 90px;
+}
+
+.search_element2:hover .label_search{
+    display: block;
+}
+
 .background_circle{
     border-radius: 50%;
     width: 40px;
@@ -98,6 +123,26 @@ body{
     align-items: center;
     margin-left: 10px;
     cursor: pointer;
+    position: relative;
+}
+
+.label_voice_search{
+    position: absolute;
+    top: 55px;
+    background: #616161;
+    color: white;
+    padding: 10px 8px 10px 8px;
+    opacity: 0.9;
+    display: none;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+    width: 95px;
+}
+
+.background_circle:hover .label_voice_search{
+    display: block;
 }
 
 .end{
@@ -145,6 +190,7 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    position: relative;
 }
 
 .apps_circle{
@@ -156,6 +202,7 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    position: relative;
 }
 
 .notification_circle{
@@ -167,4 +214,60 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    position: relative;
+}
+
+.label_add_video{
+    position: absolute;
+    top: 55px;
+    background: #616161;
+    color: white;
+    padding: 10px 8px 10px 8px;
+    opacity: 0.9;
+    display: none;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.add_video_circle:hover .label_add_video{
+    display: block;
+}
+
+.label_apps{
+    position: absolute;
+    top: 55px;
+    background: #616161;
+    color: white;
+    padding: 10px 8px 10px 8px;
+    opacity: 0.9;
+    display: none;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+    width: 123px;
+}
+
+.apps_circle:hover .label_apps{
+    display: block;
+}
+
+.label_notifications{
+    position: absolute;
+    top: 55px;
+    background: #616161;
+    color: white;
+    padding: 10px 8px 10px 8px;
+    opacity: 0.9;
+    display: none;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.notification_circle:hover .label_notifications{
+    display: block;
 }
