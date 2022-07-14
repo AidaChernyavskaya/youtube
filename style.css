@@ -1,0 +1,58 @@
+.main_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 56px;
+    z-index: -1;
+}
+
+.column{
+    display: flex;
+    height: 2000px;
+    padding: 24px 24px 0 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left{
+    background-color: aqua;
+    width: 63%;
+    margin-left: 24px;
+}
+
+.right{
+    background-color: cornflowerblue;
+    width: 27%;
+}
+
+.el_left{
+    width: 100%;
+}
+
+.video_player{
+    background-color: antiquewhite;
+    height: 530px;
+}
+
+.annotation{
+    background-color: aquamarine;
+    height: 430px;
+}
+
+.comments{
+    background-color: blueviolet;
+    height: calc(100% - 530px - 430px);
+}
+
+/*.choose_bar{*/
+/*    background-color: chartreuse;*/
+/*}*/
+
+/*.video_preview{*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*.video_name{*/
+/*    background-color: deeppink;*/
+/*}*/
