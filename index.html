@@ -82,16 +82,20 @@
 
     <div class="main_part">
         <div class="column left">
-            <div class="el_left video_player"></div>
+            <div class="el_left video_player">
+                <video controls width="100%" autoplay poster="./images/video_poster.jpg">
+                    <source src="./images/video.mp4" type="video/mp4">
+                    Простите, но ваш браузер не поддерживает встроенные видео.
+                    Попробуйте скачать видео <a href="https://youtu.be/tImmmyF5Ors">по этой ссылке</a>
+                    и открыть его на своём устройстве.
+                </video>
+            </div>
             <div class="el_left annotation"></div>
             <div class="el_left comments"></div>
         </div>
         <div class="column right">
             <div class="el_right choose_bar"></div>
-            <div class="el_right">
-                <div class="col_right video_preview"></div>
-                <div class="col_right video_name"></div>
-            </div>
+            <div class="el_right video_suggested"></div>
         </div>
     </div>
 </body>

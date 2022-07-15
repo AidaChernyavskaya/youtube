@@ -30,6 +30,11 @@
     width: 100%;
 }
 
+.el_right{
+    z-index: 1;
+    width: 100%;
+}
+
 .video_player{
     background-color: antiquewhite;
     height: 530px;
@@ -45,14 +50,13 @@
     height: calc(100% - 530px - 430px);
 }
 
-/*.choose_bar{*/
-/*    background-color: chartreuse;*/
-/*}*/
+.choose_bar{
+    background-color: darkorchid;
+    height: 50px;
+}
 
-/*.video_preview{*/
-/*    background-color: yellow;*/
-/*}*/
+.video_suggested{
+    background-color: deeppink;
+    height: calc(100% - 50px);
+}
 
-/*.video_name{*/
-/*    background-color: deeppink;*/
-/*}*/
