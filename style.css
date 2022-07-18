@@ -79,6 +79,8 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: 1px solid #0000001a;
+    padding-bottom: 8px;
 }
 
 .views{
@@ -128,4 +130,15 @@ svg{
 
 .dislike{
     width: 60%;
+}
+
+.channel_info{
+    padding-top: 16px;
+}
+
+.channel_photo{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: #f2f3f4;
 }
