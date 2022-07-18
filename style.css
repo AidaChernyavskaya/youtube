@@ -74,3 +74,58 @@ h1{
     font-weight: 200;
     margin-top: 5px;
 }
+
+.video_interaction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.views{
+    color: #606060;
+    font-size: 14px;
+    width: 25%;
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.element{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.interaction_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #f9f9f9;
+}
+
+svg{
+    width: 28px;
+    height: 28px;
+}
+
+.text{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    color: #030303;
+}
+
+.dislike{
+    width: 60%;
+}
