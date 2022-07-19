@@ -142,3 +142,28 @@ svg{
     height: 48px;
     background-color: #f2f3f4;
 }
+
+.name{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.subscribers{
+    color: #606060;
+    font-size: 12px;
+}
+
+.sub{
+    height: 36px;
+    width: 140px;
+    background-color: #c00;
+    border-radius: 2px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub .text{
+    color: white;
+}
