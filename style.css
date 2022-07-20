@@ -136,6 +136,7 @@ svg{
     padding-top: 16px;
     display: flex;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .photo{
@@ -176,4 +177,21 @@ svg{
 
 .sub .text{
     color: white;
+}
+
+.video_description{
+    margin-left: 64px;
+    font-size: 14px;
+}
+
+.more{
+    outline: none;
+    border: none;
+    background-color: #f9f9f9;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.more .text{
+    color: #606060;
 }
