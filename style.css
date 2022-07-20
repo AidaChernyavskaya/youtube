@@ -134,6 +134,12 @@ svg{
 
 .channel_info{
     padding-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    width: 7%;
 }
 
 .channel_photo{
@@ -141,6 +147,10 @@ svg{
     width: 48px;
     height: 48px;
     background-color: #f2f3f4;
+}
+
+.channel_name{
+    width: 79%;
 }
 
 .name{
