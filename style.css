@@ -4,7 +4,6 @@
     justify-content: center;
     position: relative;
     top: 56px;
-    z-index: -1;
     font-family: "Roboto","Arial",sans-serif;
     font-weight: 400;
 }
@@ -101,13 +100,13 @@ h1{
     display: flex;
     align-items: center;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .interaction_icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     position: relative;
     border-radius: 50%;
     width: 36px;
@@ -141,6 +140,7 @@ svg{
 
 .photo{
     width: 7%;
+    cursor: pointer;
 }
 
 .channel_photo{
@@ -157,6 +157,7 @@ svg{
 .name{
     font-weight: bolder;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .subscribers{
@@ -173,6 +174,7 @@ svg{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .sub .text{
@@ -194,4 +196,12 @@ svg{
 
 .more .text{
     color: #606060;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.description{
+    border-bottom: 1px solid #0000001a;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
 }
