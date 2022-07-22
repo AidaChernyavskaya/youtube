@@ -260,10 +260,12 @@ svg{
 
 .comment_input .photo{
     width: auto;
+    cursor: default;
 }
 
 .comment_input{
     display: flex;
+    margin-bottom: 32px;
 }
 .field{
     border-bottom: 1px solid #0000001a;
@@ -276,4 +278,42 @@ textarea{
     font-family: "Roboto","Arial",sans-serif;
     border: none;
     outline: none;
+}
+
+.comment_section{
+    display: flex;
+}
+
+.comment_section .channel_photo{
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.comment_section .photo{
+    width: auto;
+}
+
+.section_inf{
+    background-color: yellow;
+    height: 50px;
+    width: 90%;
+}
+
+.extra_el{
+    width: 4%;
+}
+
+.extra_el .interaction_icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.extra_el .yt-icon{
+    display: none;
+}
+
+.comment_section:hover .yt-icon{
+    display: block;
 }
