@@ -296,7 +296,6 @@ textarea{
 
 .section_inf{
     background-color: yellow;
-    height: 50px;
     width: 90%;
 }
 
@@ -316,4 +315,19 @@ textarea{
 
 .comment_section:hover .yt-icon{
     display: block;
+}
+
+.string{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.string .name{
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.string .subscribers{
+    cursor: pointer;
 }
