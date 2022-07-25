@@ -17,7 +17,7 @@
 }
 
 .left{
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 63%;
     margin-left: 24px;
 }
@@ -42,12 +42,12 @@
 /*}*/
 
 .annotation{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     /*height: 430px;*/
 }
 
 .comments{
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     height: calc(100% - 530px - 430px);
 }
 
@@ -278,6 +278,7 @@ textarea{
     font-family: "Roboto","Arial",sans-serif;
     border: none;
     outline: none;
+    background-color: #f9f9f9;
 }
 
 .comment_section{
@@ -295,8 +296,9 @@ textarea{
 }
 
 .section_inf{
-    background-color: yellow;
+    /*background-color: yellow;*/
     width: 90%;
+    padding-bottom: 5px;
 }
 
 .extra_el{
@@ -363,4 +365,41 @@ textarea{
 
 .el_string{
     margin-right: 8px;
+}
+
+.el_extra{
+    margin-left: 56px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.el_extra .interaction_icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.el_extra .text{
+    text-transform: initial;
+    color: #065fd4;
+    font-size: 15px;
+}
+
+.comment{
+    margin-bottom: 16px;
+}
+
+.first{
+    margin-bottom: 6px;
+}
+
+.second{
+    margin-bottom: 12px;
+}
+
+.string .main_text{
+    line-height: 140%;
 }
