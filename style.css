@@ -331,3 +331,36 @@ textarea{
 .string .subscribers{
     cursor: pointer;
 }
+
+.main_text{
+    font-size: 14px;
+}
+
+.el_string .interaction_icon{
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.like{
+    width: 13px;
+    height: 14px;
+    cursor: default;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: -8px;
+}
+
+.el_string .text{
+    color: #606060;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.el_string .subscribers{
+    cursor: initial;
+}
+
+.el_string{
+    margin-right: 8px;
+}
