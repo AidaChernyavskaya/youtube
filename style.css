@@ -114,6 +114,7 @@ h1{
     width: 36px;
     height: 36px;
     background-color: #f9f9f9;
+    cursor: pointer;
 }
 
 svg{
@@ -195,6 +196,7 @@ svg{
     background-color: #f9f9f9;
     margin-top: 8px;
     cursor: pointer;
+    padding-left: 0;
 }
 
 .more .text{
@@ -402,4 +404,27 @@ textarea{
 
 .string .main_text{
     line-height: 140%;
+}
+
+.el_extra .special{
+    transform: rotate(180deg);
+}
+
+.comment .comment{
+    margin-left: 56px;
+}
+
+.photo .special{
+    width: 24px;
+    height: 24px;
+}
+
+.string .special{
+    border-radius: 12px;
+    background-color: #888888;
+    color: white;
+    margin-bottom: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    line-height: 1.3rem;
 }
