@@ -23,7 +23,6 @@
 }
 
 .right{
-    background-color: cornflowerblue;
     width: 27%;
 }
 
@@ -34,16 +33,6 @@
 .el_right{
     z-index: 1;
     width: 100%;
-}
-
-/*.video_player{*/
-/*    background-color: antiquewhite;*/
-/*    height: 535px;*/
-/*}*/
-
-.annotation{
-    /*background-color: aquamarine;*/
-    /*height: 430px;*/
 }
 
 .comments{
@@ -57,7 +46,6 @@
 }
 
 .video_suggested{
-    background-color: deeppink;
     height: calc(100% - 50px);
 }
 
@@ -430,7 +418,6 @@ textarea{
 }
 
 .video_block{
-    background-color: dodgerblue;
     margin-top: 8px;
     height: 94px;
     display: flex;
@@ -474,6 +461,18 @@ textarea{
 }
 
 .video_block .subscribers{
-    margin-bottom: 5px;
-    max-height: 1rem;
+    line-height: 18px;
+    max-height: 36px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.com_color{
+    color: #065fd4;
+    cursor: pointer;
+}
+
+.dot{
+    margin: 0 4px;
 }
