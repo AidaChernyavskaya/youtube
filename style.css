@@ -428,3 +428,52 @@ textarea{
     padding-left: 6px;
     line-height: 1.3rem;
 }
+
+.video_block{
+    background-color: dodgerblue;
+    margin-top: 8px;
+    height: 94px;
+    display: flex;
+}
+
+.video_block .left{
+    margin-right: 8px;
+    margin-left: 0;
+    width: 40%;
+}
+
+.template{
+    height: 94px;
+    width: 100%;
+}
+
+.video_block .right_el{
+    /*height: 94px;*/
+    width: 50%;
+}
+
+.video_block .extra_el{
+    width: 5%;
+}
+
+.video_block:hover .yt-icon{
+    display: block;
+}
+
+.text_el{
+    color: #030303;
+    margin: 0 0 4px 0;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    max-height: 2.2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.video_block .subscribers{
+    margin-bottom: 5px;
+    max-height: 1rem;
+}
