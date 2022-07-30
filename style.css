@@ -41,8 +41,9 @@
 }
 
 .choose_bar{
-    background-color: darkorchid;
+    /*background-color: darkorchid;*/
     height: 50px;
+    position: relative;
 }
 
 .video_suggested{
@@ -475,4 +476,56 @@ textarea{
 
 .dot{
     margin: 0 4px;
+}
+
+.choose_el{
+    align-items: center;
+    display: inline-flex;
+}
+
+.back{
+    background-color: #0000000d;
+    margin: 8px 8px 8px 0;
+    border-radius: 16px;
+    height: 32px;
+    min-width: 12px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    padding: 0 10px;
+    align-items: center;
+    display: flex;
+    border: 1px solid #0000001a;
+}
+
+.back .text{
+    text-transform: initial;
+}
+
+.choose_el .first{
+    background-color: #030303;
+    border-color: #030303;
+}
+
+.first .text{
+    color: #fff;
+}
+
+.gradient{
+    position: absolute;
+    width: 32%;
+    right: -6px;
+    height: 100%;
+    top: 0;
+    background: linear-gradient(to right, transparent 23%, #f9f9f9 42%);
+}
+
+.gradient .interaction_icon{
+    position: absolute;
+    left: 68px;
+    top: 5px;
+}
+
+.choose{
+    width: 110%;
 }
